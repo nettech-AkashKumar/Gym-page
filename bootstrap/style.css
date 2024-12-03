@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black !important;
+}
+.navbar .nav-link {
+  margin: 0px 30px;
+}
+.top-heading p {
+  width: 600px;
+}
+.reason-para {
+  text-align: center;
+  padding: 20px;
+  width: 350px;
+}
+.card {
+  width: 15rem;
+}
+.dollar {
+  border-radius: 2px;
+}
+.top-heading .btn {
+  margin-left: 180px;
+  width: 300px;
+  font-size: 20px;
+  background-color: rgb(203, 156, 3);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .top {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .top img {
+    width: 100%;
+    padding: 4px;
+  }
+  .top h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .top p {
+    text-align: start;
+    padding: 20px;
+    font-size: 18px;
+  }
+  .top .btn {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  .reason {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reason-heading {
+    font-size: 30px;
+  }
+  .reason h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .reason p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .gym {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 60px;
+  }
+  .gym .card {
+    width: 100%;
+    padding: 2px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about p {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .about img {
+    width: 80%;
+  }
+  .staff {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card {
+    width: 200rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer {
+    width: 100%;
+    padding: 0;
+  }
+  footer, .address {
+    text-align: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top {
+    /* display: flex;
+    flex-direction: column-reverse;
+    align-items: center; */
+    /* padding: 20px;
+    padding-left: 20px; */
+    background-image: linear-gradient(to bottom right,
+            rgba(255, 255, 255, 0),
+            rgba(85, 82, 82, 0.8)), 
+             url('./images/b1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-image: contain;
+    background-size: cover;
+    margin-left: 5px !important;
+
+  }
+
+  .top, .top-img {
+    /* width: 100%;
+    max-width: 100%;
+    height: 60vh;
+    background: cover;
+    padding: 0;
+    margin-top: 20px; */
+    display: none;
+    /* width: 40px;
+    max-width: 40px; */
+
+  }
+
+  .top h1 {
+    font-size: 42px;
+    text-align: start;
+    margin-top: 295px;
+    margin-bottom: 20px;
+    width: 100vw;
+  }
+
+  .top p {
+    /* text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 5px;
+    width: 43vw; */
+    display: none;
+  }
+
+  .top .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .reason {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 280px !important;
+  }
+
+  .reason h1 {
+    font-size: 50px;
+  }
+  .reason h2 {
+    width: 20rem;
+  }
+  .reason-para {
+    font-size: 24px;
+    text-align: start;
+    width: 30rem;
+  }
+  .ruler i{ 
+   text-align: center !important;
+   margin-left: 160px;
+  }
+  .check, .ruler {
+    text-align: start !important;
+  }
+  .check {
+  margin-left: 50px;
+  text-align: center;
+  }
+  .check, i {
+    text-align: center;
+    margin-right: 20px;
+  }
+  .gym {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 60px;
+  }
+  .gym h1 {
+    font-size: 50px;
+  }
+  .gym p {
+    font-size: 24px;
+  }
+  .gym .card {
+    width: 90%;
+    height: auto;
+  }
+  .check {
+    padding: 10px;
+    text-align: start;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about h1 {
+    font-size: 50px;
+  }
+  .about p {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .about img {
+    width: 80%;
+  }
+  .staff {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .staff h1 {
+    font-size: 50px;
+  }
+  .staff .card {
+    width: 100%;
+  }
+  .card {
+    width: 200rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+  }
+
+  footer {
+    width: 100%;
+    padding: 0;
+  }
+  .address h3 {
+    text-align: center;
+  }
+  .social i{
+    color: rgb(203, 156, 3);
+    text-align: center;
+    margin-left: 14px;
+    padding-left: 4px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .reason-para {
+    text-align: center !important;
+  }
+}
